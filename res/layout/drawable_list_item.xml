@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+    
+    <ImageView android:id="@+id/item_icon"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="3"
+    	android:layout_margin="3dip"
+    	
+    	android:scaleType="centerInside"
+  	/>
+    
+    <TextView android:id="@+id/item_label"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:paddingLeft="3dip"
+    	android:gravity="center_vertical"
+    	
+    	style="@android:style/TextAppearance.Medium"
+    />
+</LinearLayout>

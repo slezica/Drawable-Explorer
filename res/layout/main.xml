@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="3dip">
+        
+        <EditText android:id="@+id/filter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            
+            android:singleLine="true"
+            android:hint="Quick filter"
+        />
+        
+        <Spinner android:id="@+id/background"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+        />
+        
+    </LinearLayout>
+
+    <ListView android:id="@+id/drawable_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+    />
+ </LinearLayout>
